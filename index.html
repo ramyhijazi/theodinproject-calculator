@@ -14,23 +14,28 @@
         <input type="text" id="display"> <!-- Our screen -->
       </section>
       <!-- The keys on the calculator -->
+      <!-- We could also add these in JS, it would look cleaner -->
      <section class="buttons">
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
-        <button onclick="getNumber()">1</button>
+        <button onclick="getNumber(1)">1</button>
+        <button onclick="getNumber(2)">2</button>
+        <button onclick="getNumber(3)">3</button>
+
+        <button onclick="getOperator('+')">+</button>
+        <button onclick="getNumber(4)">4</button>
+        <button onclick="getNumber(5)">5</button>
+
+        <button onclick="getNumber(6)">6</button>
+        <button onclick="getOperator('-')">-</button>
+        <button onclick="getNumber(7)">7</button>
+
+        <button onclick="getNumber(8)">8</button>
+        <button onclick="getNumber(9)">9</button>
+        <button onclick="getOperator('*')">*</button>
+
+        <button onclick="clearScreen()">CE</button>
+        <button onclick="getNumber(0)">0</button>
+        <button onclick="calculateEquals()">=</button>
+        <button onclick="getOperator()">/</button>
     </section>
     </div>
   </body>

@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <script src="scripts.js" defer></script>
-    <link href="styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <section class="header">
         <h1>Calculator</h1>
-        <input type="text" id="display"> <!-- Our screen -->
+        <input type="text" id="display" />
+        <!-- Our screen -->
       </section>
       <!-- The keys on the calculator -->
       <!-- We could also add these in JS, it would look cleaner -->
-     <section class="buttons">
+      <section class="buttons">
         <button onclick="getNumber(1)">1</button>
         <button onclick="getNumber(2)">2</button>
         <button onclick="getNumber(3)">3</button>
@@ -36,7 +37,8 @@
         <button onclick="getNumber(0)">0</button>
         <button onclick="calculateEquals()">=</button>
         <button onclick="getOperator()">/</button>
-    </section>
+      </section>
     </div>
+    <footer class="footer"> Made by Ramy </footer>
   </body>
 </html>

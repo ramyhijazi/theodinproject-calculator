@@ -1,57 +1,65 @@
 body {
-    background-color: rgb(58, 58, 58);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  background-color: rgb(58, 58, 58);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-    margin: 10vh auto;
-    width: 500px;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 16px;
-    background-color: rgb(155, 155, 155);
-    border: 1px solid black;
-    box-shadow: 1vh 2vh 2vh;
+  margin: 10vh auto;
+  width: 500px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 16px;
+  background-color: rgb(155, 155, 155);
+  border: 1px solid black;
+  box-shadow: 1vh 2vh 2vh;
 }
 
 .header {
-    margin: 2rem;
-    color: black;
+  margin: 2rem;
+  color: black;
 }
 
-
 input {
-    width: 370px;
-    padding: 0.5rem 2rem;
-    font-size: 3rem;
-    border-radius: 10px;
-    text-align: right;
-    background-color: rgb(58, 58, 58);
-    color: whitesmoke;
+  width: 370px;
+  padding: 0.5rem 2rem;
+  font-size: 3rem;
+  border-radius: 10px;
+  text-align: right;
+  background-color: rgb(58, 58, 58);
+  color: whitesmoke;
 }
 
 button {
-    padding: 40px;
-    font-size: 20px;
-    margin: 0.5rem;
-    max-width: 100px;
-    max-height: 100px;
-    text-align: center;
-    border-radius: 10%;
-    font-weight: 900;
+  padding: 40px;
+  font-size: 20px;
+  margin: 0.5rem;
+  max-width: 100px;
+  max-height: 100px;
+  text-align: center;
+  border-radius: 10%;
+  font-weight: 900;
 
-    background-color: rgb(58, 58, 58);
-    color: whitesmoke;
-    padding: 40px;
-    font-size: 20px;
-    margin: 0.5rem;
-    max-width: 100px;
+  background-color: rgb(58, 58, 58);
+  color: whitesmoke;
+  padding: 40px;
+  font-size: 20px;
+  margin: 0.5rem;
+  max-width: 100px;
 }
 
 .buttons {
-    margin: auto;
-    width: 450px;
-    display: flex;
-    flex-wrap: wrap;
+  margin: auto;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.footer {
     text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(155, 155, 155);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
